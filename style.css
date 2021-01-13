@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;600;800&display=swap');
+
+body {
+    background-color: #ebebeb;
+    font-family: "Open Sans",sans-serif;
+    color: gray;
+}
+
+.Tim {
+    border: 4px solid gray;
+    border-radius: 50%;
+}
+
+.name {color: #f05454;
+    font-size: 40px;
+    
+}
+
+.text {
+    text-align: justify;
+}
+
+.intro {width: 40%;
+    background-color: white;
+    border-radius: 8px;
+    margin: 35px auto 35px auto;
+    text-align: center;
+    line-height: normal;
+    padding: 35px;
+    
+}
+
+.media {width: 40%;
+    background-color: white;
+    border-radius: 8px;
+    margin: 35px auto 35px auto;
+    text-align: center;
+    line-height: normal;
+    padding: 35px;
+    
+}
+
+.media a {
+    color: gray;
+    text-decoration: none;
+}
+
+
+.movies {width: 40%;
+    background-color: white;
+    border-radius: 8px;
+    margin: 35px auto 35px auto;
+    text-align: center;
+    line-height: normal;
+    padding: 35px;
+    
+    
+}
+
+.film {display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    grid-column-gap: 0px;
+    grid-row-gap: 20px;
+    
+}
+
+
+.odysimg { grid-area: 1 / 1 / 2 / 2; }
+.odysee { grid-area: 1 / 2 / 2 / 4; }
+.hulotimg { grid-area: 2 / 1 / 3 / 2; }
+.hulot { grid-area: 2 / 2 / 3 / 4; }
+.alienimg { grid-area: 3 / 1 / 4 / 2; }
+.alien { grid-area: 3 / 2 / 4 / 4; } 
+
+    
+
+
+.button {
+    background-color: #f05454;;
+    border: none;
+    color: white;
+    padding: 16px 32px;
+    border-radius: 8px;
+    font-size: 25px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.button:hover { background-color: #e25252;    
+
+}
+
+.odys {
+    grid-area: 1 / 1 / 2 / 2;
+}
+    
+
+
+
+ul { list-style-type: none;
+    
+}
+
+li {
+    display: inline-block;
+    padding-left: 20px;
+    padding-right: 20px;
+}
