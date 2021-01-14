@@ -23,6 +23,7 @@ body {
 .intro {width: 40%;
     background-color: white;
     border-radius: 8px;
+    box-shadow: 0 0 5px #7d7d7d4b;
     margin: 35px auto 35px auto;
     text-align: center;
     line-height: normal;
@@ -33,6 +34,7 @@ body {
 .media {width: 40%;
     background-color: white;
     border-radius: 8px;
+    box-shadow: 0 0 5px #7d7d7d4b;
     margin: 35px auto 35px auto;
     text-align: center;
     line-height: normal;
@@ -49,6 +51,7 @@ body {
 .movies {width: 40%;
     background-color: white;
     border-radius: 8px;
+    box-shadow: 0 0 5px #7d7d7d4b;
     margin: 35px auto 35px auto;
     text-align: center;
     line-height: normal;
